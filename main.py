@@ -18,4 +18,6 @@ while quiz.still_has_questions():
   quiz.next_question()
   quiz.check_answer()
 
+print("You've completed the quiz!")
+print(f"Your final score was: {quiz.score}/{quiz.question_number}")
 # number_of_questions += 1 #no fim do while

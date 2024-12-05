@@ -40,7 +40,8 @@ class QuizBrain:
     else:
       print("You got it wrong")
     print(f"The correct answer was: {self.current_question.answer}")
-    print(f"Your current score is: {self.score}/{len(self.question_list)}.")
+    print(f"Your current score is: {self.score}/{self.question_number}.")
+    print("\n")
     
     
     
