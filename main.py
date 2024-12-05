@@ -4,8 +4,8 @@ from question_model import Question
 
 question_bank = []
 for item in question_data:
-  question_bank.append(Question(item['text'], item['answer']))
-
+  # question_bank.append(Question(item['text'], item['answer']))
+  question_bank.append(Question(item['question'], item['correct_answer']))
 # print(question_bank[0].text)
 # print(question_bank[0].answer)
 
